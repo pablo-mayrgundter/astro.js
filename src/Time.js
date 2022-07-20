@@ -10,6 +10,15 @@
 /*############################################################################*/
 'use strict';
 
+
+import {
+  CYCLE,
+  DEG2RAD,
+  TURN
+  JDtoJY2K
+} from './Math.js'
+
+
 (function (exports)
 {
 

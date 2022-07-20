@@ -7,6 +7,12 @@
 /*############################################################################*/
 'use strict';
 
+
+// TODO(pablo): review with Marcel
+// import * as Three from '../lib/three.math.js'
+import * as Math from './Math.js'
+
+
 (function (exports)
 {
 
@@ -131,7 +137,7 @@
 
 	// use mass system
 	// has julian days
-	Orbit.GMP = GMJD;
+	Orbit.GMP = Math.GMJD;
 
 	// optimized for minifier
 	var Klass = Orbit.prototype;

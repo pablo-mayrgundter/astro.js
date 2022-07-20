@@ -1,0 +1,32 @@
+{
+  "name": "astro",
+  "version": "1.0.8",
+  "description": "JavaScript Library for Astronomical Calculations.",
+  "main": "./dist/astro.min.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "build": "node esbuild.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgreter/astro.js.git"
+  },
+  "keywords": [
+    "astronomy",
+    "javascript",
+    "orbits"
+  ],
+  "author": "Marcel Greter",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mgreter/astro.js/issues"
+  },
+  "homepage": "https://github.com/mgreter/astro.js#readme",
+  "dependencies": {
+    "three": "^0.142.0"
+  }
+}
